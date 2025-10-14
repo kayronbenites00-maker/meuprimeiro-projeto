@@ -27,6 +27,7 @@ body {
 
 .menu a {
   color: #2a2a2a;
+  text-align: center;
   text-decoration: none;
   margin: 0 12px;
   font-weight: 500;
