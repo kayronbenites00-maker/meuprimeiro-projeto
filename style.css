@@ -1,17 +1,18 @@
-/* tema */
+/* TEMA */
 .cabeçalho{
   text-align: center;
   background-color: rgb(146, 190, 255);
   padding: 10px;
 }
-
 /*MENU*/
 .menu{
   text-align: center;
+  padding: 10px;
+  color: rgb(255, 0, 0);
 }
 .rodape {
   background-color: #2f2f2f;
   color: #fff;
   text-align: center;
-  padding: px;
+  padding: 0px;
 }
