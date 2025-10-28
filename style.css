@@ -5,7 +5,7 @@
 /* TEMA */
 .cabeçalho{
   text-align: center;
-  background-color: rgb(216, 3, 3);
+  background-color: rgb(255, 255, 255);
   font-family: Arial, Helvetica, sans-serif;
   padding: 0px;
   margin: 0px;
@@ -25,7 +25,16 @@
   text-align: center;
   font-family: Arial, Helvetica, sans-serif ;
 }
-
+.conteudo{
+  text-align: center;
+  padding: 50px;
+}
+.lista{
+text-align: left;
+}
+.lista2{
+  text-align: right;
+}
 /*RODAPÉ*/
 .rodape {
   background-color: #2f2f2f;
