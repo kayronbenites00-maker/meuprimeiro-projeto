@@ -85,9 +85,6 @@ p{
   font-size: 25px;
   padding: auto;
   margin: auto;
-    border-radius: 20px;
-  background-color: rgb(131, 139, 245);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .lista{
   max-width: 600px;
@@ -100,7 +97,7 @@ p{
 .lista p {
 max-width: max-content;
 }
-.conteudore3{
+.conteudo3{
    text-align: center;
   font-size: 20px;
   padding:auto;
@@ -109,6 +106,14 @@ max-width: max-content;
     border-radius: 20px;
   background-color: rgb(131, 139, 245);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.temaultimo{
+  border-radius: 20px;
+  background-color: rgb(131, 139, 245);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-size: 28px;
+  margin: 20px;
 }
 .imagens{
   display: flex;
@@ -141,6 +146,7 @@ max-width: max-content;
 
     .curiosidade p {
         color: #000000;
+        background :rgb(174, 232, 255);
 
     } 
                                                 /*pagina contato*/
@@ -164,7 +170,7 @@ border-radius: 10px;
   text-align: center;
   padding: 2%;
   margin: 5%;
- background-color: rgb(185, 185, 185); 
+ background-color: rgb(111, 104, 207); 
  border-radius: 20px;
 }
 .form input{
