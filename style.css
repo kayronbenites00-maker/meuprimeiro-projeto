@@ -37,6 +37,8 @@
   text-align: center;
   padding: 0px;
 }
+/*pagina sobre*/
+
                                                         /*pagina conteudo*/
 .menu2 a:hover{
 color: rgb(64, 122, 29);
@@ -149,34 +151,45 @@ max-width: max-content;
         background :rgb(174, 232, 255);
 
     } 
-                                                /*pagina contato*/
+/*pagina contato*/
+
+/* Estado Hover (ao passar o mouse) */
 .menu3 a:hover{
-color: rgb(64, 122, 29);
-border-radius: 10px;
+    /* Azul mais claro ou ciano para destaque no hover */
+    color: rgb(0, 150, 255); 
+    border-radius: 10px;
 }
-.menu3 a  {
-  gap: 25px;
-  font-size: larger;
-  top: 0%;
-  display: flex;
- background-color: rgb(239, 232, 199); 
- color: rgb(0, 0, 0);
-  position: fixed;
-  border-radius: 20px;
-  padding: 8px;
+
+/* Links do Menu (a) */
+.menu3 a {
+    gap: 25px; 
+    font-size: larger;
+    top: 0%;
+    display: flex;
+    background-color: rgb(200, 230, 255); 
+    color: rgb(0, 50, 100); 
+    position: fixed;
+    border-radius: 20px;
+    padding: 8px;
 }
+
+
 .form{
-  font-size: 20px;
-  text-align: center;
-  padding: 2%;
-  margin: 5%;
- background-color: rgb(111, 104, 207); 
- border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    padding: 2%;
+    margin: 5%;
+    background-color: rgb(60, 90, 180); 
+    border-radius: 20px;
+}
+.form h2{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
 }
 .form input{
-  font-size: 15px;
-  padding: 20px;
-  width: 20%;
-  border-radius: 10px;
-  border: 2px solid #ccc;
+    font-size: 15px;
+    padding: 20px;
+    width: 20%;
+    border-radius: 10px;
+    border: 2px solid #a0c4ff; 
 }
