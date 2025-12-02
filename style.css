@@ -7,19 +7,20 @@ body {
 
                   /* TEMA */
 .cabeçalho{
-background-image: url('IMG/tanque-misturador-industrial-03.webp'); /* Adicione o caminho da sua imagem aqui */
+background-image: url(); /* Adicione o caminho da sua imagem aqui */
 background-size: cover; /* Faz a imagem cobrir toda a área da div */
  background-position: center; /* Centraliza a imagem */
-color: white; /* Cor do texto */
+color: rgb(0, 0, 0); /* Cor do texto */
 text-align: center; /* Alinha o texto no centro */
-padding: 50px 20px; /* Espaçamento interno */
-font-size: 30px; /* Tamanho da fonte */
+padding: 30px; /* Espaçamento interno */
+font-size: 40px; /* Tamanho da fonte */
 font-weight: bold; /* Negrito */
-height: 200px; /* Altura da div */
+height:200px; /* Altura da div */
                   }
 
 /* Menu de Navegação */
 .menu{
+  padding: 10px;
   display: flex;
   justify-content: center;
   gap: 25px;
@@ -63,11 +64,11 @@ height: 200px; /* Altura da div */
   font-size: 25px;
     line-height: 1.6;
     margin-bottom: 20px;
-    color: #555;
+    color: #000000;
 }
 
 .inicial strong {
-    color: #16a085;  /* Cor verde para destacar palavras-chave */
+    color: #008316;  /* Cor verde para destacar palavras-chave */
 }
 
 /* Rodapé */
@@ -175,11 +176,12 @@ h2 {
     margin: 5%; 
     background-color: #3366cc; 
     border-radius: 20px;
+    box-shadow: 5px 5px 10px #000000;
 }
 
 .form h2{
     font-size: 40px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .form input{
@@ -202,4 +204,11 @@ h2 {
 .form button:hover{
   border-radius: 30px;
   background-color: #001f4d;
+   box-shadow: 5px 5px 10px #006faf;
 }
+  .tudo{
+    padding: 110px;
+    margin: 110px;
+    background-color: #082e66;
+    border-radius: 20px;
+  }
