@@ -19,30 +19,44 @@ height:200px; /* Altura da div */
                   }
 
 /* Menu de Navegação */
-.menu{
+.menu {
   padding: 10px;
   display: flex;
   justify-content: center;
   gap: 25px;
   background-color: #015ebb; /* azul médio */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* sombra suave para profundidade */
+  border-radius: 12px; /* bordas arredondadas na parte de fundo */
 }
 
-.menu a{
- text-decoration: none; 
-  font-size: 20px;
-  color: #000000; /* texto branco */
+.menu a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #000000; /* texto preto */
   border-radius: 9px;
   background-color: #99ccff; /* azul claro */
-  padding: 9px;
+  padding: 10px 20px; /* espaçamento maior */
   margin: 5px;
+  transition: all 0.5s ease; /* transição suave para todos os efeitos */
 }
 
-.menu a:hover{
-   text-decoration: none; /*tira a linha da o letras*/;
+.menu a:hover {
+  text-decoration: none;
   border-radius: 20px;
-  color: #003366; /* azul escuro no hover */
+  color: #ffffff; /* cor branca do texto no hover */
   background-color: #66b2ff; /* azul médio */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* sombra mais forte no hover */
+  transform: translateY(-2px); /* efeito de elevação ao passar o mouse */
 }
+
+.menu a:active {
+  transform: translateY(1px); /* efeito sutil ao clicar */
+}
+  .menu a {
+    font-size: 16px;
+    padding: 8px 15px;
+  }
+
 
 /* Conteúdo Principal */
 .inicial {
@@ -87,6 +101,7 @@ height:200px; /* Altura da div */
 
 
 .video{
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   margin: auto;
@@ -106,52 +121,93 @@ height:200px; /* Altura da div */
 }
 
                                   /* página conteúdo */
-.tema{
+/* --- Títulos gerais --- */
+.tema {
   text-align: center;
-  font-size: 28px;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #003366; /* azul escuro */
 }
 
-.conteudo, .conteudo2, .conteudo3,.tema {
-    background-color: #66b2ff;
-    margin: auto;
+/* --- Blocos de conteúdo principais --- */
+.conteudo,
+.conteudo2,
+.conteudo3,
+.tema,
+.temaultimo {
+  background-color: #66b2ff; /* azul médio */
+  margin: 25px auto;
+  padding: 25px;
   max-width: 1000px;
-    border-radius: 20px;
-  box-shadow: 5px 5px 10px rgb(0, 0, 0);
+  border-radius: 20px;
+  box-shadow: 0px 6px 14px rgb(0, 0, 0);
   text-align: center;
-  font-size: 25px;
-}
-.temaultimo{
-   background-color: #66b2ff;
-    margin: auto;
-    padding: 20px;
-  max-width: 1000px;
-    border-radius: 20px;
-  box-shadow: 5px 5px 10px rgb(0, 0, 0);
-  text-align: center;
-  font-size: 25px;
-}
-.lista p{
-  font-size: 25px;
-  margin: auto;
-}
-.lista strong{
-  color: #004d06;
+  font-size: 22px;
+  line-height: 1.5;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.lista{
-   border-radius: 20px;
+/* Efeito visual ao passar o mouse nos blocos */
+.conteudo:hover,
+.conteudo2:hover,
+.conteudo3:hover,
+.temaultimo:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 10px 18px rgb(0, 0, 0);
+}
+
+/* --- Lista --- */
+.lista {
   background-color: #66b2ff;
   max-width: 600px;
-  font-size: 25px;
-  margin: auto;
+  margin: 25px auto;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: left;
+  font-size: 22px;
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.25);
+  transition: 0.25s ease, 0.25s ease;
 }
 
-.imagens{
+
+.lista p {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.lista strong {
+  color: #004d06; /* verde */
+}
+
+/* --- Imagens alinhadas --- */
+.imagens {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
+.imagens img {
+  max-width: 260px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.25);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.imagens img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
+
+
                                         /* página curiosidades */
+.tudoCuriosidade{
+    padding: 110px;
+    margin: 100px;
+    background-color: #054bb4a8;
+    border-radius: 20px;
+  }
 h2 {
     text-align: center;
     color: #003366;
@@ -165,57 +221,110 @@ h2 {
   padding: 15px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
+.curiosidade:hover {
+  background-color: #66b2ff;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3px);
+  transition: all 0.3s ease;
+}
 
-.curiosidade h3 {
+.curiosidade h3,p {
     color: #004080;
     margin-top: 0;
+    font-size: 20px;
 }
 
-.curiosidade p {
-  font-size: 25px;
-    color: #003366;
-    background-color: #99ccff;
-}
 
 
                             /* FORMULÁRIO */
-.form{
-    font-size: 20px;
-    text-align: center;
-    padding: 2%;
-    margin: 5%; 
-    background-color: #3366cc; 
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px #000000;
+.form {
+  font-size: 20px;
+  text-align: center;
+  padding: 40px;
+  margin: 50px auto;
+  background-color: #3366cc; /* azul forte */
+  border-radius: 20px;
+  max-width: 700px;
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.25);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.form h2{
-    font-size: 40px;
-    color: #000000;
+/* Efeito ao passar o mouse no bloco do formulário */
+.form:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.3);
 }
 
-.form input{
-    font-size: 15px;
-    padding: 20px;
-    width: 20%;
-    border-radius: 10px;
-    border: 2px solid #99ccff; 
+.form h2 {
+  font-size: 42px;
+  color: #000000;
+  margin-bottom: 25px;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.2);
 }
 
-.form button{
-    font-size: 20px;
-    padding: 10px 20px;
-    border-radius: 10px;
-    background-color: #003366; 
-    color: white;
-    box-shadow: 5px 5px 10px #000000;
+/* --- Inputs --- */
+.form input {
+  font-size: 18px;
+  padding: 15px;
+  margin: 12px 0;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 12px;
+  border: 2px solid #99ccff; /* azul claro */
+  background-color: #f4faff;
+  outline: none;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
-.form button:hover{
-  border-radius: 30px;
+/* Efeito no foco do input */
+.form input:focus {
+  border-color: #003366; 
+  box-shadow: 0 0 10px rgba(0, 51, 102, 0.4);
+}
+
+/* --- Botão --- */
+.form button {
+  font-size: 22px;
+  padding: 12px 30px;
+  margin-top: 20px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  background-color: #003366; 
+  color: white;
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.form button:hover {
+  border-radius: 25px;
   background-color: #001f4d;
-   box-shadow: 5px 5px 10px #006faf;
+  transform: translateY(-3px);
+  box-shadow: 0px 10px 18px rgba(0, 111, 175, 0.4);
 }
+
+.form button:active {
+  transform: translateY(1px);
+}
+
+/* --- Responsividade --- */
+@media (max-width: 768px) {
+  .form {
+    padding: 25px;
+    font-size: 18px;
+  }
+
+  .form input {
+    width: 95%;
+    font-size: 16px;
+  }
+
+  .form button {
+    width: 80%;
+    font-size: 20px;
+  }
+}
+
   .tudo{
     padding: 110px;
     margin: 110px;
