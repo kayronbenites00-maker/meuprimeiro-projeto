@@ -7,10 +7,10 @@ body {
 
                   /* TEMA */
 .cabeçalho{
-background-image: url(); /* Adicione o caminho da sua imagem aqui */
+background-image: url(IMG/baner.jpg); /* Adicione o caminho da sua imagem aqui */
 background-size: cover; /* Faz a imagem cobrir toda a área da div */
  background-position: center; /* Centraliza a imagem */
-color: rgb(0, 0, 0); /* Cor do texto */
+color: rgb(0, 72, 226); /* Cor do texto */
 text-align: center; /* Alinha o texto no centro */
 padding: 30px; /* Espaçamento interno */
 font-size: 40px; /* Tamanho da fonte */
@@ -77,6 +77,7 @@ height:200px; /* Altura da div */
   color: #ffffff;
   text-align: center;
   padding: 1px;
+  margin: 1px;
   width: 100%;
   position: fixed;
   bottom: 0;
@@ -97,9 +98,9 @@ height:200px; /* Altura da div */
   text-align: center;
   width: 80%;
   max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #66b2ff; /* azul médio */
+  margin: 40px auto;
+  padding: 40px;
+  background-color: #0080ff; /* azul médio */
   border-radius: 20px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
