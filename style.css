@@ -7,7 +7,7 @@ body {
 
                   /* TEMA */
 .cabeçalho{
-background-image: url(IMG/baner.jpg); /* Adicione o caminho da sua imagem aqui */
+background-image: url(); /* Adicione o caminho da sua imagem aqui */
 background-size: cover; /* Faz a imagem cobrir toda a área da div */
  background-position: center; /* Centraliza a imagem */
 color: rgb(0, 72, 226); /* Cor do texto */
@@ -111,7 +111,7 @@ height:200px; /* Altura da div */
   font-size: 28px;
 }
 
-.conteudo, .conteudo2, .conteudo3, .temaultimo ,.tema {
+.conteudo, .conteudo2, .conteudo3,.tema {
     background-color: #66b2ff;
     margin: auto;
   max-width: 1000px;
@@ -119,7 +119,16 @@ height:200px; /* Altura da div */
   box-shadow: 5px 5px 10px rgb(0, 0, 0);
   text-align: center;
   font-size: 25px;
-
+}
+.temaultimo{
+   background-color: #66b2ff;
+    margin: auto;
+    padding: 20px;
+  max-width: 1000px;
+    border-radius: 20px;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
+  text-align: center;
+  font-size: 25px;
 }
 .lista p{
   font-size: 25px;
