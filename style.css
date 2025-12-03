@@ -60,29 +60,33 @@ height:200px; /* Altura da div */
 
 /* Conteúdo Principal */
 .inicial {
-    background-color: white;
-    padding: 90px;
-    margin: 70px;
+    background-color: #ffffff;
+    padding: 70px 60px;
+    margin: 60px auto;
     border-radius: 20px;
-    box-shadow: 0px 4px 8px rgb(0, 0, 0)
+    max-width: 900px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .inicial h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-    color: #356391;
+    font-size: 38px;
+    margin-bottom: 25px;
+    color: #2f5d88;
+    text-align: center;
+    font-weight: 700;
 }
 
 .inicial p {
-  padding: 20px;
-  font-size: 25px;
-    line-height: 1.6;
-    margin-bottom: 20px;
+    padding: 15px 0;
+    font-size: 22px;
+    line-height: 1.7;
     color: #000000;
 }
 
 .inicial strong {
-    color: #008316;  /* Cor verde para destacar palavras-chave */
+    color: #008316; /* Destaque em verde */
+    font-weight: 700;
 }
 
 /* Rodapé */
