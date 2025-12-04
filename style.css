@@ -1,5 +1,5 @@
 body {
-    font-family: Montserrat, Arial, sans-serif;
+    font-family:  Arial, sans-serif;
     background: #cce0ff; /* azul claro */
     margin: auto;
     padding: 0
@@ -7,27 +7,37 @@ body {
 
                   /* TEMA */
 .cabeçalho{
-background-image: url(); /* Adicione o caminho da sua imagem aqui */
+background-image: url('IMG/baner.jpg'); /* Adicione o caminho da sua imagem aqui */
 background-size: cover; /* Faz a imagem cobrir toda a área da div */
  background-position: center; /* Centraliza a imagem */
-color: rgb(0, 72, 226); /* Cor do texto */
+color: rgb(255, 255, 255); /* Cor do texto */
 text-align: center; /* Alinha o texto no centro */
 padding: 30px; /* Espaçamento interno */
 font-size: 40px; /* Tamanho da fonte */
 font-weight: bold; /* Negrito */
 height:200px; /* Altura da div */
                   }
+ .cabeçalho h1{
+  border-radius: 20px;
+  background-color: rgb(228, 243, 255);
+  margin: 50px;
+  padding: 20px;
+  display: inline-block; /* Faz o fundo ficar no texto */
+  text-shadow: 
+5px 6px 0 rgb(0, 0, 0),
+4px 7px 0 rgb(0, 0, 0),
+8px  10px 0 rgb(0, 0, 0);
+                  }
 
-/* Menu de Navegação */
+/* Menu */
 .menu {
   padding: 10px;
   display: flex;
   justify-content: center;
   gap: 25px;
-  background-color: #015ebb; /* azul médio */
+  background-color: #498aca; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* sombra suave para profundidade */
-  border-radius: 2px; /* bordas arredondadas na parte de fundo */
-}
+  border-radius: 2px;}
 
 .menu a {
   text-decoration: none;
@@ -50,7 +60,7 @@ height:200px; /* Altura da div */
 }
 
 .menu a:active {
-  transform: translateY(1px); /* efeito sutil ao clicar */
+  transform: translateY(40px); /* efeito sutil ao clicar */
 }
   .menu a {
     font-size: 20px;
@@ -117,7 +127,7 @@ height:200px; /* Altura da div */
   max-width: 800px;
   margin: 40px auto;
   padding: 40px;
-  background-color: #0080ff; /* azul médio */
+  background-color: #8bc1f7; /* azul médio */
   border-radius: 20px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
@@ -146,8 +156,6 @@ height:200px; /* Altura da div */
   box-shadow: 0px 6px 14px rgb(0, 0, 0);
   text-align: center;
   font-size: 22px;
-  line-height: 1.5;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 /* Efeito visual ao passar o mouse nos blocos */
@@ -168,7 +176,7 @@ height:200px; /* Altura da div */
   border-radius: 20px;
   text-align: left;
   font-size: 22px;
-  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.774);
   transition: 0.25s ease, 0.25s ease;
 }
 
@@ -206,7 +214,7 @@ height:200px; /* Altura da div */
                                         /* página curiosidades */
 .tudoCuriosidade{
     padding: 110px;
-    margin: 100px;
+    margin: 24px;
     background-color: #054bb4a8;
     border-radius: 20px;
   }
@@ -240,6 +248,7 @@ h2 {
 
                             /* FORMULÁRIO */
 .form {
+  
   font-size: 20px;
   text-align: center;
   padding: 40px;
@@ -329,7 +338,7 @@ h2 {
 
   .tudo{
     padding: 110px;
-    margin: 110px;
+   margin: 30px;
     background-color: #082e66;
     border-radius: 20px;
   }
